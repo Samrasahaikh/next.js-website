@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Testimonial = () => {
@@ -8,7 +9,7 @@ const Testimonial = () => {
         <div className="grid lg:grid-cols-[300px,1fr] gap-4">
           <div className="border border-gray-300 rounded-2xl grid place-items-center p-6 lg:p-0">
             <div className="text-center flex flex-col items-center gap-1">
-              <img
+              <Image
                 className="rounded-full inline-block"
                 src="/vactore girl.jpg"
                 width={80}
@@ -17,7 +18,7 @@ const Testimonial = () => {
               />
               <h2 className="text-pink-700 font-black text-[20px]">Else Doe</h2>
               <p>CEO & Founder InVision</p>
-              <img
+              <Image
                 className="inline-block py-2"
                 src="/qoate.png"
                 width={30}
@@ -25,13 +26,12 @@ const Testimonial = () => {
                 alt="qoates"
               />
               <p className="max-w-[200px] text-gray-500">
-                leading innovation in digital product design and collaboration."
+                leading innovation in digital product design and collaboration
               </p>
             </div>
           </div>
 
-          <div
-            className="bg-red-600 bg-[url(/bg2.jpg)] bg-cover h-[500px] rounded-2xl
+          <div className="bg-red-600 bg-[url(/bg2.jpg)] bg-cover h-[500px] rounded-2xl
 grid place-items-center"
           >
             <div
@@ -52,7 +52,7 @@ grid place-items-center"
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Testimonial;

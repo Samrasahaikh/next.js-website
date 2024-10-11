@@ -12,10 +12,10 @@ export default function Navbar() {
             CATEGORIES
           </Link>
           <Link className="navbar__link relative" href="#">
-            MAN'S
+            MANS
           </Link>
           <Link className="navbar__link relative" href="#">
-            WOMAN'S
+            WOMANS
           </Link>
           <Link className="navbar__link relative" href="#">
             JEWWLLRY

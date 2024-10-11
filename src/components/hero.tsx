@@ -3,7 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import Slide from "./slide";
 export default function Hero() {
-  let settings = {
+  const settings = {
     dots: true,
     slidesToShow: 1,
     slidToScroll: 1,

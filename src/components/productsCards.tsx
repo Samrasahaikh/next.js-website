@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { IoMdStar, IoIosStarOutline } from "react-icons/io";
 
@@ -81,7 +82,7 @@ const ProductsCards: React.FC<propsType> = ({
   return (
     <div className="px-4 border-gary-200 rounded-xl max-w-[400px] font-sans">
       <div>
-        <img
+        <Image
           className="w-full h-auto "
           src={img}
           width={200}
