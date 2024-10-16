@@ -6,7 +6,7 @@ export default function Hero() {
   const settings = {
     dots: true,
     slidesToShow: 1,
-    slidToScroll: 1,
+    slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: false,
   };

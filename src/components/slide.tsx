@@ -24,21 +24,21 @@ const Slide: React.FC<propsType> = ({ img, title, mainTitle, price }) => {
 
         <h3 className="text-[24px] text-gray-600">
           starting at{" "}
-          <b className="text-[20px] md:text-[24px] lh:text-[30px] font-sans">
+          <b className="text-[20px] md:text-[24px] h1:text-[30px] font-sans">
             {price}
           </b>
           .00
         </h3>
         <div
-          className="bg-pink-800 text-white text-[14px] md:[16px] p-2 px-4 rounded-lg *
+          className="bg-pink-800 text-white text-[14px] md:text-[16px] p-2 px-4 rounded-lg *
             inline-block cursor-pointer hover:bg-pink-600 font-sans"
         >
-          Shope Now
+          Shop Now
         </div>
       </div>
 
       <Image
-        className="w-[100%] h-[300px] md:h-auto rounded-xl object-cover object-right
+        className="w-full h-[300px] md:h-auto rounded-xl object-cover object-right
 md:object-left-bottom"
         src={img}
         alt="banner"
